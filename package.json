@@ -1,0 +1,13 @@
+{
+  "name": "stylelint-demo",
+  "version": "1.0.0",
+  "description": "Demo-Projekt für Stylelint mit absichtlich eingebauten CSS-Fehlern",
+  "scripts": {
+    "lint:css": "stylelint src/style.css",
+    "lint:css:fix": "stylelint src/style.css --fix"
+  },
+  "devDependencies": {
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}

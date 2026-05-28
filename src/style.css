@@ -1,0 +1,31 @@
+/*
+  Stylelint Live-Demo
+  Diese CSS-Datei enthält absichtlich Fehler.
+  Die Fehler sind nur für die Präsentation eingebaut,
+  damit Stylelint sie im Terminal erkennen kann.
+*/
+
+.card {
+  /* Fehler 1: "colour" ist falsch geschrieben. Richtig wäre "color". */
+  colour: red;
+
+  /* Fehler 2: Dieser Farbcode ist absichtlich ungültig. Richtig wäre z. B. "#fff" oder "#ffffff". */
+  color: #fffff;
+
+  /* Fehler 3: "color" kommt mehrfach im gleichen Block vor. */
+  color: blue;
+}
+
+.button {
+  background-color: white;
+}
+
+/* Fehler 4: Der Selektor ".button" kommt doppelt vor. */
+.button {
+  background-color: black;
+}
+
+/* Fehler 5: ID-Selektoren sind laut unserer Config nicht erlaubt. */
+#header {
+  color: red;
+}
